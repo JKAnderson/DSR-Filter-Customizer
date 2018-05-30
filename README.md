@@ -1,6 +1,6 @@
 
 # DSR Filter Customizer 1.0
-[NexusMods Page](https://www.nexusmods.com/darksouls/mods/1411)  
+[NexusMods Page](https://www.nexusmods.com/darksouls/mods/1435)  
 A utility to customize the built-in visual filters of Dark Souls: Remastered. Supports multiple profiles, global or localized filter replacement, and realtime editing.  
 Requires [.NET 4.7.2](https://www.microsoft.com/net/download/thank-you/net472) - Windows 10 users should already have this.
 
