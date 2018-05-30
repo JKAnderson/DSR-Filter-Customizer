@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.gbxFilter = new System.Windows.Forms.GroupBox();
             this.cbxContrastSync = new System.Windows.Forms.CheckBox();
             this.cbxBrightnessSync = new System.Windows.Forms.CheckBox();
@@ -587,7 +588,7 @@
             this.lblCheckVersion.Text = "Checking for new version...";
             this.lblCheckVersion.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // MainForm
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -616,8 +617,9 @@
             this.Controls.Add(this.llbNewVersion);
             this.Controls.Add(this.lblCheckVersion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "MainForm";
+            this.Name = "FormMain";
             this.Text = "DSR Filter Customizer <version>";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);

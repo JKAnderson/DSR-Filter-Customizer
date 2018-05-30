@@ -16,7 +16,7 @@ namespace DSR_Filter_Customizer
         // Duration of fade between filters
         private const int FADE_TIME = 2000;
         // URL when you click the update link label
-        private const string UPDATE_LINK = "https://www.nexusmods.com/darksouls/mods/1411?tab=files";
+        private const string UPDATE_LINK = "https://www.nexusmods.com/darksouls/mods/1435?tab=files";
         // Frames of delay before reporting an unknown filter; sometimes the world and filter ID are out of sync briefly, etc
         private const int UNKNOWN_FILTER_TIMEOUT = 5;
 
